@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color:white;
+    padding: 5rem 0;
+}
+.container{
+  gap: 2rem;
+  margin-top: 2rem;
+  
+}
+.checked {
+    color: orange;
+  }
+  .heading{
+    text-align: center;
+  }
+  .heading h1{
+    font-size: 2rem;
+    color:#071e55;
+  }
+  .heading p{
+    color:#7c8595;
+  }
+  .box{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+  }
+  .box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+  }
+  .left img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff;
+    box-shadow: rgba(0,0,0,0.15)4px 4px 10px;
+    
+    
+  }
+  .right img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff;
+    box-shadow: rgba(0,0,0,0.15)4px 4px 10px;
+    
+  }
+  .middle img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff;
+    box-shadow: rgba(0,0,0,0.15)4px 4px 10px;
+    
+  }
+  .left{
+
+    text-align: center;
+  }
+  .right{
+   
+    text-align: center;
+  }
+  .middle{
+    
+    text-align: center;
+  }
+  .message{
+     background-color: #fff;
+     padding :5.5rem 2rem 2rem 2rem;
+     margin-top: -4rem;
+     box-shadow: rgba(0,0,0,0.15)4px 4px 10px;
+     border-radius: 15px;
+
+  }
+  .message p{
+    color: #7c8595;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .message h6{
+    color: #1e90ff;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .rating{
+    text-align: center;
+  }
+  

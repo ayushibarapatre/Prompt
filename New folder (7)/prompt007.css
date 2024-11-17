@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.anker a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+button{
+    width:7vw;
+    height: 4vh;
+    font-weight: 600;
+    background-color: white;
+    font-size: 1.0rem;
+    /* border: none; */
+    border-radius: 3px;
+}
+.box{
+    display: flex;
+   
+}
+.box .left{
+    /* background-color: blueviolet; */
+    width: 50%;
+    /* flex-direction: column; */
+    padding-left: 30px;
+    padding-top: 30px;  
+}
+.left.header{
+    text-align: center;
+    padding-top: 22vh;
+    font-size: rem;
+}
+.box .left h1{
+    font-size: 4.5rem;
+}
+.box .left .shoping{
+    margin-top: 30px;
+    width: 9vw;
+    background-color: #32a88b;
+    border: none;
+    color: white;
+}
+.box .left .img{
+    margin: 8px;
+    padding-right: 80px;
+}
+.box .right{
+    /* background-color: rgb(43, 226, 150); */
+    width: 50%;
+    display: flex;
+   
+    padding-top: 30px;
+    padding-left: 340px;
+   
+} 
+
+
+.right .img1{
+    height: 70%;
+    width: 30%;
+    /* border-radius: 40%; */
+    margin-right: 15px;
+    /* padding-top: 120px; */
+    
+}
+.right .img2{
+    height: 100%;
+    width: 40%;
+    /* border-radius: 40%; */
+    
+    
+}
+
+ 

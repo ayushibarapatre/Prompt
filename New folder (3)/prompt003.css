@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:#edfae3 ;
+}
+.container{
+    width: 100vw;
+    display: flex;
+}
+.navbar{
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar img{
+    margin-top: 2vh;
+    margin-left: 0.2vw;
+    height: 13vh;
+}
+.navbar input{
+        border-radius: 15px;
+        height: 5vh;
+        width: 14vw;
+        font-size: 1rem;
+        text-align: center;
+        border: 3px solid #33333358;
+        color:#33333315 ;
+        margin-right: 10vh;
+        margin-top: 1.5vh;
+        
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.left .main{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 7vw;
+    padding-top: 6vh;
+    
+    
+}
+ .main .main1 button{
+  width: 11vw;
+  height: 7vh;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+.right .balana{
+  
+   display: flex;
+   align-items: center;
+   padding-left: 4vw;
+}
+ .left h1{
+    font-size: 3rem;
+    margin-top: 20vh;
+    margin-left: 7vw   ;
+ }
+ .left p{
+    font-size: 1.2rem;
+    margin-top: 5vh;
+    margin-left: 7vw;
+    color:#33333377 ;
+    font-weight: 70;
+    
+
+ }
+ .left .main .circle{
+    display: flex;
+    gap: 1.7rem;
+    padding-left: 4vw;
+    
+
+ }
+ .left .main .circle button{
+    border-radius: 50%;
+    height: 4vh;
+    width: 2vw;
+    background-color: white;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 900;
+ }
+ .left .main .circle .main4 button{
+    font-size: 1.3rem;
+ }
+ .left.chips{
+    justify-content: start;
+    height: 13vh;
+    width: 80vw;
+    
+ }
+ .right .chips{
+    text-align: end;
+    height: 40vh;
+    width: 60vw;
+    right: 0;
+    width: 50vw;
+
+   
+    
+ }
+ 
+ 
+ .left{
+    
+    width: 50%;
+ }
+ .right.balaji img {
+    margin-bottom: 50vh;
+    height: 10vh;
+    width: 5vw;
+    border: none;
+ }
+ /* .right.location{
+    height: 20vh;
+    width: 25vw;
+
+ } */
+  
+  .mirchi{
+   display: flex;
+  }
+  .img2{
+   margin-top: 20vh;
+   height: 3vh;
+   
+  }
+ 

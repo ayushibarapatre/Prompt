@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(202, 225, 226, 0.482);
+}
+.pricing p{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    
+}
+.pricing h1{
+    text-align: center;
+    padding-top: 30px;
+    color:rgb(52, 129, 205);
+}
+.box{
+    width: 100%;
+    height:60%;
+    display: flex;
+    /* background-color: brown; */
+    margin-top: 50px;
+    margin: 0 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.left{
+    height: 100%;
+    width: 23%;
+    background-color: white;
+    margin-right: 15px;
+    border: 10px solid whitesmoke;
+    
+}
+
+.middle{
+    height: 100%;
+    width: 23%;
+     background-color: white;
+    margin-right: 15px;
+    border: 10px solid whitesmoke;
+    
+}
+.right{
+    height: 100%;
+    width: 23%;
+    background-color: white;
+    margin-right: 15px;
+    border: 10px solid whitesmoke;
+    
+}
+.left h1{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid cadetblue;
+   
+}
+.middle h1{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid cadetblue;
+    
+}
+.right h1{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid cadetblue;
+    
+}
+.left .para{
+    text-align: center;
+    padding-top: 20px;
+    color: cadetblue;
+    
+}
+.middle .para{
+    text-align: center;
+    padding-top: 20px;
+    color: cadetblue;
+    
+   
+}
+.right .para{
+    text-align: center;
+    padding-top: 20px;
+    color: cadetblue;
+    
+}
+
+.left .p1{
+    flex-direction: column;
+    padding-bottom: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+.middle .p1{
+    flex-direction: column;
+    padding-bottom: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+.right .p1{
+    flex-direction: column;
+    padding-bottom: 22px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:rgb(52, 129, 205);
+    font-size: 2.0rem;
+}
+button{
+    height: 30px;
+    width: 150px;
+   margin-left: 110px;
+   margin-top: 10px;
+   border:none;
+   background-color: rgb(52, 129, 205);
+   color: white;
+   font-size: 0.9rem;
+}
+button:hover{
+    background-color: rgb(52, 129, 205);
+    color: white;
+}

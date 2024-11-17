@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width:700px;
+   height: 100vh;
+   background-color: #3333336a;
+}
+nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+   align-items: center;
+    height: 70px;
+    padding: 0px 30px;
+    padding: 10px 10px;
+    background-color: #ad84846a;;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.anker{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.anker a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.box{
+    display: flex;
+}
+.box img{ 
+    padding: 20px;
+    background-color: #3333336a;
+    width: 300px;height: 300px;
+}
+.content{
+   margin:10px ;
+   background-color: whitesmoke;
+}
+.content h1{
+  text-align: center;
+  line-height:1;
+  padding-top: 20px;
+}
+.content p{
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px 10px;
+}
+button{
+    height: 30px;width: 110px;
+    margin-left: 140px;
+    font-weight: 700;
+}
+.box1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box1 img{ 
+    padding: 20px;
+    background-color: #3333336a;
+    width: 300px;height: 300px;
+}
+.content1{
+   margin:10px ;
+   background-color: whitesmoke;
+}
+.content1 h1{
+    text-align: center;
+   padding-top: 30px;
+
+    
+  }
+.content1 p{
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px 10px;
+}
+.box2{
+    display: flex;
+}
+.box2 img{ 
+    padding: 20px;
+    background-color: #3333336a;
+    width: 300px;height: 300px;
+}
+.content2{
+   margin:10px ;
+   background-color: whitesmoke;
+}
+.content2 h1{
+  text-align: center;
+  line-height:1;
+  padding-top: 20px;
+}
+@media(max-width:700px){
+    .container{
+        background-color: white;
+    }
+    /* nav{
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+       align-items: center;
+        height: 70px;
+        padding: 0px 30px;
+        padding: 10px 10px;
+        background-color: #ad84846a;;
+    } */
+
+    nav{
+   flex-direction: row;
+    height: 70px;
+    padding: 0px 0px;
+    padding: 0px 0px;
+    background-color: #ad84846a;
+   
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 1.3rem;
+    width: 100px;
+    padding-left: 20px;
+}
+.anker{
+    width: 100px;
+    flex-direction: row;
+    margin-right: 450px;
+}
+.anker a{
+    padding-right: 10px;
+}
+/* .anker .contact{
+    width: 200px;
+} */
+    .box{
+        flex-direction: column;
+        width: 20%;
+        margin-top: 20px;
+    }
+    .box img{ 
+        
+        padding: 20px;
+        width: 400px;height: 300px;
+        padding-top: 20px;
+    }
+    .content{
+       margin:0px ;
+       background-color: whitesmoke;
+       width:400px;
+    }
+    .content h1{
+      text-align: center;
+      line-height:1;
+      padding-top: 20px;
+      width: 100%;
+    }
+    .content p{
+        text-align: center;
+        padding-top: 20px;
+        padding: 20px 10px;
+    }
+    button{
+        height: 30px;width: 110px;
+        margin-left: 140px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .box1{
+        
+        flex-direction: column;
+    }
+    .box1 img{ 
+        padding: 20px;
+        width: 400px;height: 300px;
+        padding-top: 20px;
+        
+    }
+    .content1{
+       margin:0px ;
+       background-color: whitesmoke;
+       width: 400px;
+    }
+    .content1 h1{
+        text-align: center;
+       padding-top: 30px;
+       width: 100%;
+        
+      }
+    .content1 p{
+        text-align: center;
+        padding-top: 20px;
+        padding: 20px 10px;
+        padding-right: 0px;
+    }
+    .box2{
+        flex-direction: column;
+    }
+    .box2 img{ 
+        padding: 20px;
+        /* background-color: #3333336a; */
+        width: 400px;height: 300px;
+    }
+    .content2{
+       margin:10px ;
+       background-color: whitesmoke;
+       width: 400px;
+    }
+    .content2 h1{
+      text-align: center;
+      padding-top: 20px;
+      padding-right: 20px;
+      font-size: 1.3rem;
+    }
+    
+}

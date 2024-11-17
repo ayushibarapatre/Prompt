@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    background-color: rgba(19, 115, 141, 0.237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+}
+.container .box{
+    height: 80%;
+    width: 20%;
+    border-radius: 50%;
+}
+.container .box .upbox{
+    height: 30%;
+    width: 100%;
+    
+}
+.container .box .upbox img{
+    height:110% ;
+    width: 100%;
+}
+.container .box .midlebox{
+    height: 12;
+    width: 100%;
+    background-color: #eee3e8;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:   26px 13px;
+    padding-bottom: 10px;
+    /* background-color: yellow; */
+
+}
+.container .box .midlebox .profile img{
+    width:3.4rem;
+    height:3.4rem;
+    border-radius: 50%;
+    border: 2px solid rgb(234, 49, 110);
+}
+.midlebox .profile{
+    display: flex;
+    gap: 2vh;
+
+}
+.midlebox .profile .p1{
+    font-weight: 1000;
+    font-size: 20px;
+}
+.midlebox .profile .p2{
+    font-size: 15px;
+    color:palevioletred;
+}
+/* .middlebox button{
+    background-color: brown;
+} */
+
+.container .box .downbox {
+    height: 50%;
+    width: 100%;
+    background-color:rgb(67, 25, 109);
+    
+}
+.container .box .downbox img{
+    height: 100%;
+    width: 100%;
+}

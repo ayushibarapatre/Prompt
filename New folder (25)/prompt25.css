@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.flyer-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #1e2a38;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.event-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.event-date, .event-location {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #ffcc66;
+}
+
+.event-description {
+    font-size: 1rem;
+    margin: 15px 0;
+    color: #e0e0e0;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #1e2a38;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #ffb700;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flyer-container {
+        padding: 15px;
+    }
+
+    .event-title {
+        font-size: 1.6rem;
+    }
+
+    .event-date, .event-location, .event-description {
+        font-size: 0.95rem;
+    }
+
+    .register-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .event-title {
+        font-size: 1.4rem;
+    }
+
+    .event-date, .event-location, .event-description {
+        font-size: 0.9rem;
+    }
+
+    .register-button {
+        font-size: 0.85rem;
+        padding: 7px 14px;
+    }
+}
